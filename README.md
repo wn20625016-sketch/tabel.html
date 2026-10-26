@@ -1,1 +1,433 @@
-# tabel.html
+<!DOCTYPE html>
+<html>
+    <body>
+        <nav class="navbar">
+    <a href="#home" class="logo">🌷 My Website</a>
+
+    <div class="nav-menu">
+        <a href="#home" class="nav-link">⌂ Home</a>
+        <a href="#tentang" class="nav-link">♡ About</a>
+        <a href="#kontak" class="nav-link">✉️ Contact</a>
+    </div>
+</nav>
+    </body>
+<head>
+    <section id="home">
+    <h1>My Sweet Website ♡</h1>
+    <style>
+    h1{color: rgb(234, 63, 132);
+        text-shadow: 1px 2px rgb(247, 233, 239); 
+        text-align: center;
+        font-family: Georgia, serif;
+    
+
+}</style>
+    <title>FORM RISMAA</title>
+
+    <style>
+    
+        #tabelCompany {
+            border-collapse: collapse;
+        }
+
+        #tabelCompany th,
+        #tabelCompany td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        #tabelCompany th {
+            background-color: rgb(200, 45, 112);
+        }
+
+        #tabelCompany td {
+            background-color: rgb(235, 227, 231);
+        }
+
+
+        
+        #tabelMahasiswa {
+            width: 65%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            border-spacing: 0;
+            
+        }
+
+        #tabelMahasiswa th,
+        #tabelMahasiswa td {
+            border: 1px solid rgb(0, 5, 11);
+            padding: 12px;
+            text-align: center;
+        }
+
+        #tabelMahasiswa th {
+            background-color: hwb(336 12% 26% / 0.653);
+        }
+
+        #tabelMahasiswa td {
+            background-color: rgb(247, 209, 224);
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+<style>
+    
+h2 {
+    font-family: "Georgia", serif;
+    font-size: 28px;
+    font-style: italic;
+    color: #dd5eb3;
+}
+h3 {
+    font-family:  Arial, sans-serif
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5c5056;
+    letter-spacing: 1px;
+    text-align: center;
+}
+form label {
+    color: #ae1c48;
+}
+    form input {
+    color: #ae1c48;
+    }
+    form select {
+    color: #ae1c48;
+}
+#tabelCompany th,
+#tabelCompany td {
+    color: #d63384;
+}
+</style>
+    <h3 style="text-align: center;">simpel and elegan!!</h3>
+
+    <form action="/action_page.php">
+        <label for="fname">Nama depan:</label><br>
+        <input type="text" id="fname" name="fname" value="Risma"><br>
+
+        <label for="lname">Nama belakang:</label><br>
+        <input type="text" id="lname" name="lname" value="imaa"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" value="150327"><br><br>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">I have a bike</label><br>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">I have a car</label><br>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">I have a boat</label><br><br>
+
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">BMW</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">lamborgini</option>
+            <option value="toyota">Toyota</option>
+        </select>
+
+        <br><br>
+
+        
+        <table id="tabelCompany">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+                <th>Alamat</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+                <td>Parncis</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>Belgia</td>
+            </tr>
+        </table>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2 style="text-align: center;">
+        DATA MAHASISWA BISNIS DIGITAL ANGKATAN 3
+    </h2>
+
+    <table id="tabelMahasiswa">
+        <tr>
+            <th>NO</th>
+            <th>NAMA</th>
+            <th>NIM</th>
+            <th>NOMOR HP</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>NURDIANTI</td>
+            <td>WN20625012</td>
+            <td>085340106610</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>RISMA RAWE</td>
+            <td>WN20625014</td>
+            <td>085240106611</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>LALA</td>
+            <td>WN20625008</td>
+            <td>085199052396</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>SUCI NURUL AULYA</td>
+            <td>WN20625016</td>
+            <td>082293799716</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>JACQLIEN</td>
+            <td>WN20625003</td>
+            <td>082358878157</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>AZMI AZIZAH</td>
+            <td>WN20625004</td>
+            <td>08214120198</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>ANATASYA REFANI</td>
+            <td>WN20625002</td>
+            <td>085705158509</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>AUREL</td>
+            <td>WN20625003</td>
+            <td>085762867112</td>
+        </tr>
+
+        <tr>
+            <td>9</td>
+            <td>NILUH SULVA</td>
+            <td>WN20625010</td>
+            <td>082229043996</td>
+        </tr>
+
+        <tr>
+            <td>10</td>
+            <td>RADITHA</td>
+            <td>WN20625003</td>
+            <td>081342358626</td>
+        </tr>
+
+        <tr>
+            <td>11</td>
+            <td>MELDA</td>
+            <td>WN20625018</td>
+            <td>085385938408</td>
+        </tr>
+
+        <tr>
+            <td>12</td>
+            <td>VARADIBA</td>
+            <td>WN20625017</td>
+            <td>085188601947</td>
+        </tr>
+ 
+    </table>
+<style>
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("tuliprisma.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+    color: #b85f83;
+}
+
+.kotak {
+    width: 200px;
+    padding: 25px;
+    background: #d908744d;
+    border: 1px solid rgb(164, 12, 83);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.kotak:hover {
+    transform: scale(1.05);
+}
+</style>
+<div class="kotak">
+    <a href="contoh dian.html">Klik jika ingin ke web dianss</a>
+</div>
+
+<style>
+table th,
+z  {
+    color: rgb(247, 242, 242) !important;
+}
+</style>
+<style>
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f62b9a;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px #f8f5f6;
+    text-align: center;
+}
+</style>
+<style>
+
+</style>
+    <h2 style="text-align: center;">MATERI SELANJUTNYA</h2>
+</style>  
+</body>
+
+<head>
+</html>
+ <style>
+    body {
+    background-color: #fff5f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #5c4550;
+}
+
+.konten {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #f5d6e1;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #eacbd5;
+    line-height: 1.8;
+}
+
+.konten h2 {
+    color: #d47799;
+    margin-top: 0;
+
+.konten p {
+    font-size: 15px;
+    text-align: justify;
+}
+}
+.navbar {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #f8d5e1;
+    border-radius: 50px;
+    box-shadow: 0 8px 25px #d99ab633;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.logo {
+    color: #c5688d;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-link {
+    color: #946078;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.nav-link:hover {
+    background: #f8dce7;
+    color: #c34f7b;
+    transform: translateY(-2px);
+}
+.nav-link:active {
+    background: #e98bad;
+    color: white;
+}
+
+ </style>
+<body>
+
+<html>
+
+</html>
+</head>
+
+<section id="tentang">
+    <h1>🌷 Welcome to My Website</h1>
+</section>
+
+<section class="konten" id="tentang">
+    <h2>♡ About Me</h2>
+    <p>Ini adalah website sederhana untuk belajar HTML dan CSS.</p>
+</section>
+
+<section class="konten" id="kontak">
+    <h2>✉️ Contact Me</h2>
+    <p>Terima kasih sudah berkunjung ke website saya!</p>
+</section>
+<section class="konten" id="kontak">
+    <h2>✨ Enjoying</h2>
+    <p>
+        Terus belajar, mencoba hal baru,
+        dan jangan takut untuk berkreasi!
+    </p>
+</section>
+</body>
+  <footer>
+         © 2026 My Sweet Website | Made with ♡
+    </footer>
